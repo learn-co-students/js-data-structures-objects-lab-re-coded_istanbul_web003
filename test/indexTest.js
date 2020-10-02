@@ -1,4 +1,5 @@
 describe('drivers', function() {
+  let driver = {}
   describe('updateDriverWithKeyAndValue(driver, key, value)', function () {
     beforeEach(function () {
       for (const key in driver) {
